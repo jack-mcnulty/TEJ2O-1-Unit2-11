@@ -38,6 +38,6 @@ input.onGesture(Gesture.Shake, function() {
     basic.showString(number2.toString() + ">" + number1.toString())
 
 // pause and show you're ready again
-basic.pause(1000),
+basic.pause(1000)
 basic.showIcon(IconNames.Sad)
 })
