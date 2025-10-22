@@ -35,7 +35,7 @@ input.onGesture(Gesture.Shake, function() {
     basic.showString(number1.toString() + ">" + number2.toString())
     
     else
-    basic.showString(number2.toString() + ">" + number1.toString()),
+    basic.showString(number2.toString() + ">" + number1.toString())
 
 // pause and show you're ready again
 basic.pause(1000),
