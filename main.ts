@@ -33,10 +33,11 @@ input.onButtonPressed(Button.B, function() {
 input.onGesture(Gesture.Shake, function() {
     if (number1 >= number2)
     basic.showString(number1.toString() + ">" + number2.toString())
-} else 
-    basic.showString(number1.toString() + ">" + number2.toString())
+    
+    else
+    basic.showString(number2.toString() + ">" + number1.toString()),
 
-// pause and show you're ready again 
-basic.pause(1000)
+// pause and show you're ready again
+basic.pause(1000),
 basic.showIcon(IconNames.Sad)
-)
+})
